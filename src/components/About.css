@@ -1,0 +1,76 @@
+.about-title{
+    margin-top: 200px;
+   text-align: center;
+}
+.about-title > h1{
+ margin-bottom: 5px !important;
+  margin: 0;
+}
+.about-title > span{
+    opacity: 0.7;
+   
+}
+.about{
+   margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+
+
+.img-about > img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+.downloadcv{
+    width: 150px;
+    height: 45px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 12px;
+    padding: 15px;
+}
+.info-about{
+    display: flex;
+    flex-direction: column;
+}
+.box-about > div > h4{
+    margin: 0;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.box-about > div > span{
+ opacity: 0.6;
+}
+.box-about{
+    display: flex;
+    gap: 15px;
+}
+.box-about > div{
+    border: 1px solid rgb(152, 152, 152);    
+    width: 120px;
+    height: 100px;
+    padding: 10px;
+  
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.describtion-about > p{
+    opacity: 0.7;
+    line-height: 1.5;
+}
+.describtion-about{
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
