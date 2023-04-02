@@ -1,0 +1,51 @@
+.skills-title{
+    margin-top: 200px;
+   text-align: center;
+}
+.skills-title > h1{
+ margin-bottom: 5px !important;
+  margin: 0;
+}
+.skills-title > span{
+    opacity: 0.8;
+   
+}
+.box-skills{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box-skills > div{
+    border: 1px solid rgba(0, 0, 0,0.1);    
+    width: 400px;
+    height: 300px;
+    padding: 5px;
+    background-color: #fff;
+  margin-top: 80px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+   padding-top: 30px;
+    align-items: center;
+}
+.skills-item{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 100px;
+    row-gap: 10px;
+}
+.skill-title > h4{
+    margin-bottom: 8px;
+}
+.item-skill > span{
+opacity: 0.7;
+font-size: 13px;
+}
+.skill-name{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.skill-title{
+    display: flex;
+    flex-direction: column;
+}
