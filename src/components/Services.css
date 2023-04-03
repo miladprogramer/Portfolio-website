@@ -1,0 +1,90 @@
+.services-title{
+    margin-top: 180px;
+   text-align: center;
+}
+.services-title > h1{
+ margin-bottom: 5px !important;
+  margin: 0;
+}
+.services-title > span{
+    opacity: 0.8;
+   
+}
+.box-services{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    position: relative;
+}
+.box-services > div{
+    border: 1px solid rgba(0, 0, 0,0.1);    
+    width: 240px;
+    height: 140px;
+    padding: 5px;
+    padding-top: 50px;
+    background-color: #fff;
+    border-radius: 20px;
+    text-align: center;
+}
+.view-more{
+    display: flex;
+align-items: center;
+justify-content: center;
+gap: 7px;
+}
+.view-more > span{
+    font-size: 14px;
+    margin-left: 10px;
+}
+.services-modal-service{
+   
+  
+}
+.services-modal-content{
+    width: 450px;
+    background-color: #fff;
+  padding: 30px;
+   position: relative;
+    border: 1px solid rgba(0, 0, 0,0.1); 
+    border-radius: 20px;
+}
+.services-modal-content > h3{
+    margin-top: 40px;
+}
+.services-modal-content > p{
+   opacity: 0.7;
+}
+.services-modal-service-item{
+    display: flex;
+align-items: center;
+gap: 8px;
+}
+.services-modal-service-item > p{
+    font-size: 13px;
+    opacity: 0.7;
+}
+.services-modal{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0,0.7);
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+ display: none;
+ visibility: hidden;
+}
+.close-btn{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+
+}
+.services-modal-visibility{
+    display: flex;
+    visibility: visible;
+}
