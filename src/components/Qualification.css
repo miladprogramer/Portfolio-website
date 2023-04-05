@@ -18,7 +18,7 @@
     display: flex;
     gap: 30px;
     justify-content: center;
-    
+    cursor: pointer;
    }
    .qualification-tabs > div:hover{
     color: gray;
