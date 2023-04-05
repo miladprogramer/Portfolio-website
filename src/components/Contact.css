@@ -1,0 +1,99 @@
+.contact-title{
+    margin-top: 170px;
+    text-align: center;
+}
+.contact-title > h1{
+    margin-bottom: 5px !important;
+     margin: 0;
+   }
+    .contact-title > span{
+       opacity: 0.8;
+      
+   }
+   .contact-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+   }
+   .talk-to-me{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    gap: 15px;
+   }
+   .talk-option{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0,0.1);    
+    width: 250px;
+    height: 120px;
+    padding: 5px;
+    padding-top: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+   }
+   .talk-option > span{
+    margin-bottom: 8px;
+   }
+   .contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+   }
+   .contact-form-items{
+    display: flex;
+    flex-direction: column;
+   gap: 25px;
+  
+   }
+    input , textarea{
+    background: transparent;
+    border: 2px solid rgba(0, 0, 0,0.3);  
+    width: 300px; 
+    
+    border-radius: 10px;
+    resize: none;
+   outline: none;
+   padding: 20px;
+   z-index: 1;
+   }
+   .text-area{
+    height: 150px;
+   }
+   .contact-form-item{
+    position: relative;
+    
+   }
+   .contact-form-item > label{
+    position: absolute;
+  left: 15px;
+  top: -8px;
+  font-size: 12px;
+  z-index: 1000;
+   }
+   .form-button{
+    width: 160px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 12px;
+    padding: 15px;
+   }
+   .option-title{
+    font-weight: 700;
+   }
+   .write-me{
+    display: flex;
+    align-items: center;
+   gap: 8px;
+   }
