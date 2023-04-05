@@ -1,0 +1,79 @@
+.qualification-title{
+    margin-top: 180px;
+    text-align: center;
+}
+.qualification-title > h1{
+    margin-bottom: 5px !important;
+     margin: 0;
+   }
+    .qualification-title > span{
+       opacity: 0.8;
+      
+   }
+   .qualification-container{
+    margin-top: 70px;
+ 
+   }
+   .qualification-tabs{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    
+   }
+   .qualification-tabs > div:hover{
+    color: gray;
+   }
+   .qualification-sections{
+    display: grid;
+    grid-template-columns: 0.3fr;
+    justify-content: center;
+    text-align: center;
+    display: none;
+    margin-top: 40px;
+   }
+   .qualification-sections-active{
+    display: grid;
+   }
+   .qualification-content-item{
+    display: grid;
+    grid-template-columns: 0.4fr max-content 0.4fr;
+   justify-content: center;
+   }
+   .qualification-content-item > div > h4{
+    margin: 0;
+    margin-bottom: 5px;
+   }
+   .qualification-subtitle{
+    margin-bottom: 5px;
+   }
+   .calendar{
+    margin-top: 5px !important;
+   }
+   .rounder{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: black;
+    border-radius: 50%;
+   }
+   .line{
+    display: block;
+    width: 1px;
+    height: 100%;
+    background-color: black;
+    transform: translate(6px,-6px);
+   }
+   .experience-tab{
+    display: flex;
+    gap: 5px;
+   }
+   .experience-tab > h3{
+    margin: 0;
+   }
+   .education-tab{
+    display: flex;
+    gap: 5px;
+   }
+   .education-tab > h3{
+    margin: 0;
+   }
