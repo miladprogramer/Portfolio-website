@@ -1,0 +1,11 @@
+.scroll-up{
+    position: fixed;
+    background-color: rgb(69, 69, 69);
+    right: 20px;
+    bottom: -20%;
+    border-top: 1px solid rgba(0, 0, 0,0.5);  
+    border-radius: 5px;
+}
+.show-scroll-up{
+    bottom: 20px;
+}
