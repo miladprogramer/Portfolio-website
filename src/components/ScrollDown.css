@@ -1,0 +1,17 @@
+.scrolldown{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 80px;
+}
+.wheel{
+    animation: scroll 2s ease infinite;
+}
+@keyframes scroll{
+    0%{
+transform: translateY(0);
+    }
+    30%{
+        transform: translateY(50px);
+    }
+}
